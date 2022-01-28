@@ -12,7 +12,7 @@ var computer, computerBase;
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
 
-  engine = Engine.create();
+  engine = engine.create();
   world = engine.world;
 
   playerBase = new PlayerBase(300, random(450, height - 300), 180, 150);
